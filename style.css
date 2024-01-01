@@ -60,7 +60,7 @@ body {
 }
 
 .time div span {
-  position: absolute;
+  position: absolute;   
   transform: translateX(-50%) translateY(-10px);
   font-size: 0.35em;
   font-weight: 300;
@@ -104,10 +104,20 @@ body {
   font-size: 0.5em;
   font-weight: 300;
 }
-.newYear span:nth-child(2){
+.newYear span:nth-child(3){
     color: rgb(243, 6, 168);
     font-style: italic;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.newYear span:nth-child(2){
+  color: rgb(219, 243, 6);
+  font-style: italic;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.newYear span:nth-child(4){
+  color: rgb(6, 128, 243);
+  font-style: italic;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .text {
       text-align: center;
